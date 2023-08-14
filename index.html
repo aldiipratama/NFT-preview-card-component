@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="text-white bg-[#0d192b] h-screen">
+    <div class="container flex justify-center items-center h-[95%]">
+      <div class="overflow-hidden rounded-lg has-shadow bg-[#14253d] w-72">
+        <div
+          class="p-5 relative hover:after:block cursor-pointer after:content-['👁️‍🗨️'] after:absolute after:rounded-lg after:top-5 after:right-5 after:left-5 after:bottom-5 after:hidden after:text-white after:leading-[250px] after:text-4xl after:bg-cyan-400/50 after:text-center"
+        >
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium"
+            class="rounded-lg"
+          />
+        </div>
+        <div class="px-4 pb-4 flex flex-col gap-2">
+          <a href="#" class="font-semibold cursor-pointer hover:text-[#00fff7]"
+            >Equilibrium #3429</a
+          >
+          <div class="text-sm text-slate-400">
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-[#00fff7] font-semibold text-xs">0.041 ETH</span>
+            <span class="text-slate-400 text-xs">3 days left</span>
+          </div>
+        </div>
+        <hr class="w-64 opacity-20 mx-auto" />
+        <div
+          class="p-4 flex gap-4 text-sm text-slate-400 font-light items-center"
+        >
+          <div class="avatar ring">
+            <img alt="avatar" src="./images/image-avatar.png" />
+          </div>
+          <span
+            >Creation of
+            <a href="#" class="text-white hover:text-[#00fff7]"
+              >Jules Wyvern</a
+            ></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center text-sm">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-orange-500"
+        >Frontend Mentor</a
+      >. Coded with ❤️ by
+      <a
+        href="https://github.com/aldiipratama"
+        target="_blank"
+        class="text-orange-500"
+        >Aldii Pratama</a
+      >.
+    </div>
+  </body>
+</html>

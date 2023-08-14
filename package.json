@@ -1,0 +1,11 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sira-ui/tailwind": "^0.11.6",
+    "lodash": "^4.17.21",
+    "tailwindcss": "^3.3.3"
+  }
+}
